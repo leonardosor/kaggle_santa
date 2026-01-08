@@ -1,0 +1,23 @@
+# Santa 2025 - Christmas Tree Packing Challenge
+# Minimal requirements for the competition
+
+# Core computation
+numpy
+pandas
+scipy
+
+# Geometry and collision detection
+shapely
+
+# Visualization
+matplotlib
+
+# Kaggle API for submissions
+kaggle
+
+# Progress bars
+tqdm
+
+# Optional: For optimization experiments
+# optuna
+# scipy.optimize

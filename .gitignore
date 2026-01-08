@@ -1,0 +1,74 @@
+# Data and outputs
+output/*.csv
+output/**/*.csv
+!output/.gitkeep
+submissions/*.csv
+submissions/**/*.csv
+!submissions/.gitkeep
+
+# Logs - DON'T commit job logs
+logs/*.log
+logs/*.out
+logs/*.err
+logs/*.txt
+!logs/.gitkeep
+
+# Kaggle credentials
+.kaggle/
+kaggle.json
+
+# Keep sample data
+!data/santa-2025/sample_submission.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+*.ipynb_checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Large files
+*.zip
+*.tar.gz
+*.parquet
+*.pkl
+*.pickle
+
+# SLURM outputs
+slurm-*.out
+
+# CuPy cache
+.cupy/
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+
+# Allow sample submission
+!data/santa-2025/sample_submission.csv
