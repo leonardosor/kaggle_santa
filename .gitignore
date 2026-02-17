@@ -26,11 +26,14 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
-*.so
 *.egg
 *.egg-info/
 dist/
 build/
+
+# Go build artifacts
+golib/cmd/libgeometry/*.h
+# Note: libgeometry.so is included in the repo for convenience
 
 # Jupyter
 *.ipynb_checkpoints
