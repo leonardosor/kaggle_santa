@@ -45,7 +45,7 @@ Go batch collision (100 tests, 10 placed): 0.47 ms
 
 ### Prerequisites
 - Python 3.8+
-- Go 1.20+ (already installed)
+- Go 1.20+ (tested with Go 1.24)
 - Required Python packages (see requirements.txt)
 
 ### Setup
